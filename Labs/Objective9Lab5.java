@@ -31,16 +31,13 @@ public class Objective9Lab5 {
 
         switch (choice) {
           case 1:
-            System.out.println("Your sum is: ");
-            findSum(num1, num2);
+            System.out.println("Your sum is: " + findSum(num1, num2));
             break;
           case 2:
-            System.out.println("Your average is: ");
-            findAverage(num1, num2);
+            System.out.println("Your average is: " + findAverage(num1, num2));
             break;
           case 3:
-            System.out.println("Your tax is: ");
-            calcTax(num1, num2);
+            System.out.println("Your tax is: " + calcTax(num1, num2));
             break;
           case 4:
             System.out.println("Bye Bye!");
